@@ -20,7 +20,6 @@ export default function Download({
     toJpeg(node.current, {
       canvasWidth: 900,
       canvasHeight: 900,
-      cacheBust: true,
       type: "image/jpeg",
     })
       .then((dataUrl) => {
