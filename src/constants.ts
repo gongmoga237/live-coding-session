@@ -1,0 +1,2 @@
+export const FIRSTNAME_CHARACTER_SIZE = 11;
+export const LASTNAME_CHARACTER_SIZE = 15;

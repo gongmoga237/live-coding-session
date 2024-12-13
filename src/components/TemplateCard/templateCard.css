@@ -1,0 +1,59 @@
+section {
+  position: relative;
+
+  & > img.template {
+    width: 400px;
+    height: 400px;
+  }
+
+  & > .attendee {
+    position: absolute;
+    width: 115.125px;
+    height: 213.3px;
+    top: 81.61px;
+    left: 29px;
+
+    & > img {
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 1px;
+      width: 100%;
+      height: 174.3px;
+      overflow: hidden;
+      object-fit: cover;
+      -o-object-fit: cover;
+
+      object-position: top center;
+      -o-object-position: top center;
+    }
+
+    & > .attendee_name {
+      overflow: hidden;
+      position: absolute;
+      bottom: 0;
+      height: 36.1px;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      text-align: center;
+      line-height: 1;
+      font-weight: 600;
+      font-size: 0.8rem;
+      color: antiquewhite;
+
+      & > span:nth-child(1) {
+        text-transform: uppercase;
+      }
+      & > span:nth-child(2) {
+        text-transform: capitalize;
+      }
+    }
+  }
+}

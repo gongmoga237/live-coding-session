@@ -1,0 +1,47 @@
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  gap: 4rem;
+
+  .preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button,
+  input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    color: #e8e8e8;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    width: fit-content;
+
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #e9e0e0 solid;
+    border-radius: 5px;
+    background: #818cf8;
+
+    outline: none;
+
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      background: #929dfc;
+    }
+  }
+}
+
+@media screen and (max-width: 880px) {
+  main {
+    grid-template-columns: auto;
+  }
+}
