@@ -20,10 +20,9 @@ export default function Download({
     toJpeg(node.current, {
       canvasWidth: 900,
       canvasHeight: 900,
-      type: "image/jpeg",
     })
       .then((dataUrl) => {
-        saveAs(dataUrl, `je_serai_la_${name}.jpeg`);
+        saveAs(dataUrl, `je_serai_la_${name}.png`);
       })
       .catch((err) => {
         console.log(err);
