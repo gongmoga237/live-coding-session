@@ -21,7 +21,7 @@ export default function TemplateCard({
   const attendeeHeight = 311.4667;
 
   return (
-    <section>
+    <section className="card">
       <img
         className="template"
         src={templateImage}
