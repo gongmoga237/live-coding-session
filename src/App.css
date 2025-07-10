@@ -1,7 +1,6 @@
 main {
-  display: flex;
-  flex-direction: row;
-  with: 100%;
+  display: grid;
+  grid-template-column: auto auto;
 
   gap: 4rem;
 
@@ -46,6 +45,6 @@ main {
 
 @media screen and (max-width: 880px) {
   main {
-    flex-direction: column;
+   grid-template-column: auto;
   }
 }
