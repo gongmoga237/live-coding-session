@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-column: auto auto;
+  grid-template-columns: auto auto;
 
   gap: 4rem;
 
@@ -45,6 +45,6 @@ main {
 
 @media screen and (max-width: 880px) {
   main {
-   grid-template-column: auto;
+   grid-template-columns: auto;
   }
 }
